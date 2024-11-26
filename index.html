@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Muelnhwa'Coffee</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#recipe">Recipe</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Coffee Shop</h1>
+        <p>Your favorite place for coffee and relaxation.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item-espresso">
+                <img src="espresso.jpg" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>A strong and bold coffee shot.</p>
+                <button onclick="window.location.href='#espresso-recipe'">Lihat Resep</button>
+            </div>
+            <div class="menu-item">
+                <img src="latte.jpg" alt="Latte">
+                <h3>Latte</h3>
+                <p>A smooth blend of espresso and steamed milk.</p>
+                <button onclick="window.location.href='#latte-recipe'">Lihat Resep</button>
+            </div>
+            <div class="menu-item">
+                <img src="cappuccino.jpg" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>A delightful mix of espresso, steamed milk, and foam.</p>
+                <button onclick="window.location.href='#cappuccino-recipe'">Lihat Resep</button>
+            </div>
+            <div class="menu-item-mocha">
+                <img src="mocha.jpg" alt="Mocha">
+                <h3>Mocha</h3>
+                <p>A rich blend of chocolate and coffee.</p>
+                <button onclick="window.location.href='#mocha-recipe'">Lihat Resep</button>
+            </div>
+            <div class="menu-item">
+                <img src="cold brew.jpg" alt="Cold Brew">
+                <h3>Cold Brew</h3>
+                <p>A refreshing coffee brewed cold for a smooth taste.</p>
+                <button onclick="window.location.href='#coldbrew-recipe'">Lihat Resep</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="recipe">
+        <h2>Resep Kopi</h2>
+        
+        <div class="recipe-item" id="espresso-recipe">
+            <h3>Resep Espresso</h3>
+            <ul>
+                <li>Gunakan 18-21 gram kopi yang digiling halus</li>
+                <li>Suhu air: 90-96°C</li>
+                <li>Waktu ekstraksi: 25-30 detik</li>
+                <li>Tekanan: 9 bar</li>
+                <li>Hasil: 30-40ml espresso</li>
+            </ul>
+            <button class="back-button" onclick="window.location.href='#menu'">Kembali ke Menu</button>
+        </div>
+
+        <div class="recipe-item" id="latte-recipe">
+            <h3>Resep Latte</h3>
+            <ul>
+                <li>1 shot espresso (30ml)</li>
+                <li>180ml susu segar</li>
+                <li>Panaskan susu hingga 65°C</li>
+                <li>Tekstur susu hingga halus dan creamy</li>
+                <li>Tuang susu perlahan ke dalam espresso</li>
+                <li>Rasio: 1:3 (espresso:susu)</li>
+            </ul>
+            <button class="back-button" onclick="window.location.href='#menu'">Kembali ke Menu</button>
+        </div>
+
+        <div class="recipe-item" id="cappuccino-recipe">
+            <h3>Resep Cappuccino</h3>
+            <ul>
+                <li>1 shot espresso (30ml)</li>
+                <li>120ml susu segar</li>
+                <li>Panaskan susu hingga 65°C</li>
+                <li>Tekstur susu hingga menghasilkan foam yang tebal</li>
+                <li>Rasio: 1:1:1 (espresso:steamed milk:foam)</li>
+            </ul>
+            <button class="back-button" onclick="window.location.href='#menu'">Kembali ke Menu</button>
+        </div>
+
+        <div class="recipe-item" id="mocha-recipe">
+            <h3>Resep Mocha</h3>
+            <ul>
+                <li>1 shot espresso (30ml)</li>
+                <li>30ml sirup coklat</li>
+                <li>150ml susu segar</li>
+                <li>Whipped cream untuk topping</li>
+                <li>Taburi bubuk coklat</li>
+            </ul>
+            <button class="back-button" onclick="window.location.href='#menu'">Kembali ke Menu</button>
+        </div>
+
+        <div class="recipe-item" id="coldbrew-recipe">
+            <h3>Resep Cold Brew</h3>
+            <ul>
+                <li>100 gram kopi kasar</li>
+                <li>1 liter air dingin</li>
+                <li>Rendam selama 12-24 jam di kulkas</li>
+                <li>Saring menggunakan filter kopi</li>
+                <li>Sajikan dengan es batu</li>
+                <li>Bisa ditambah susu atau gula sesuai selera</li>
+            </ul>
+            <button class="back-button" onclick="window.location.href='#menu'">Kembali ke Menu</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: Muelnhwa'Coffee@gmail.com</p>
+        <p>Phone: 081352331700</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Coffee Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
